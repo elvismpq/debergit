@@ -1,0 +1,44 @@
+
+/* comentarios*/
+body{
+background:khaki;
+}
+ section p i {
+    font-size: 20px;
+    color: darkmagenta;
+}
+#caja{
+width: 280px;
+height: 200px;
+background:rgba(109, 139, 0, 0.514);
+}
+.grupo{
+    width: 200px;
+    height:200px;
+    background:forestgreen;
+    margin: 10px
+}
+h1{
+    font: 20px ;
+    font-family:Verdana;
+    color: brown;
+}
+a[href="www.ciencias.epn.edu.ec"]{
+    font-size: 50px;
+    color:coral 
+}
+header{
+width: 1000px;
+height: 300px;
+background: gold;
+border: 10px solid rebeccapurple;
+}
+#logo{
+    width: 400px;
+    height: 200px;
+    background: fuchsia;
+    border: 20px solid lemonchiffon;   
+    padding: 1px;
+    margin: 20px
+}
+

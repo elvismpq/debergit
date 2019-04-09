@@ -1,0 +1,165 @@
+
+/*formatear todo*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header{
+    width: 1000px;
+    height: 120px;
+    background: black;
+    position: relative;
+    margin: 20px auto;
+    
+
+}
+nav{
+    margin: auto;
+    position: relative;
+    width: 1000px;
+    height: 40px;
+    color: blue;
+}
+#top{
+    width: 1000px;
+    height: 192px;
+    background: darkgray;
+    margin: 20px auto;
+}
+
+section{
+    width: 1000px;
+    height: 453px;
+    
+    margin: auto;
+    position: relative;
+}
+footer{
+    width: 1000px;
+    height: 192px;
+    background: chocolate;
+    margin: 20px auto;
+    position: relative;
+}
+
+#logo{
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    background: rgb(127, 156, 235);
+    top:30px;
+    left: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    text-align: center;
+    line-height: 60px
+}
+
+.redes{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    background: rgb(3, 9, 90);
+    border-radius: 100%;
+    text-align: center;
+    line-height: 42px;
+    
+}
+#icono1{
+top: 42px;
+right: 120px;
+color: aliceblue;
+}
+#icono2{
+    top: 42px;
+    right: 71px;
+    color: aliceblue;
+    }
+#icono3{
+    top: 42px;
+    color: aliceblue;
+    right: 19px;
+
+}
+.botones
+{
+    float: left;
+    width: 196px;
+    height: 48px;
+    background: black;
+    margin: 0px 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px
+}
+#top ul li{
+    float: left;
+    width: 326px;
+    height: 192px;
+    background: black;
+    margin-right: 5px;
+}
+aside#izq{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 453px;
+    background: rgb(6, 158, 39);
+    
+}
+aside#der{
+    position:absolute;
+    right:0;
+    top:0;
+    width:200px;
+    height:453px;
+ 
+    }
+
+aside#der h2{
+    width:200px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    background:rgb(135, 122, 155);
+    color:white;
+    margin-bottom:5px;
+    }
+
+aside#der input{
+        padding:10px;
+        margin:5px 0;
+        width:176px;
+        }
+aside#der input[type="text"]{
+            background:url(../IMAGENES/usuario.png);
+            background-repeat:no-repeat;
+            background-position:right;
+            background-size:contain;
+}
+            
+aside#der input[type="password"]{
+            background:url(../IMAGENES/password.png);
+            background-repeat:no-repeat;
+            background-position:right;
+            background-size:contain;
+}
+
+aside#der input[type="submit"]{
+width:200px;
+background:rgba(78, 135, 139, 0.733);
+border:0;
+}
+
+article{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 600px;
+    height: 453px;
+    background: rgb(107, 11, 11);
+
+}
